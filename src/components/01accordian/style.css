@@ -9,12 +9,7 @@
     flex-direction: column;
     gap: 20px;
   }
-.wrapper-color {
- 
-    height: 50vh;
-    width: 100vw;
-    
-  }
+
   
   .button{
       padding: 10px 20px;
