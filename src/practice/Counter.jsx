@@ -12,7 +12,7 @@ const Counter = () => {
     <div style={styles.container}><h2>Click counter</h2>
      <p>You have clicked the button {count} times</p>
      <button onClick={handleClick} style={styles.button}>Click me!</button>
-     <button onClick={handleReset} style={{ ...styles.button, marginLeft: '10px', backgroundColor: '#f44336', color: 'white' ,  border: 'none'}}>Reset</button>
+     <button onClick={handleReset} style={{ ...styles.button, marginLeft: '10px', backgroundColor: '#f44336', color: 'white' , }}>Reset</button>
     
     </div>
     
