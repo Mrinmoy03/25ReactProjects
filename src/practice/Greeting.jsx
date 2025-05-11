@@ -3,13 +3,13 @@ import React, { useState, useEffect } from 'react';
 const Greeting = () => {
   const [time, setTime] = useState(new Date());
 
-  // Update time every second
+
   useEffect(() => {
     const intervalId = setInterval(() => {
       setTime(new Date());
     }, 1000);
 
-    return () => clearInterval(intervalId); // cleanup
+    return () => clearInterval(intervalId); 
   }, []);
 
   const currentHour = time.getHours();
@@ -37,9 +37,13 @@ const Greeting = () => {
 
 const styles = {
   container: {
+     position: 'sticky',
+  top: '0',
     textAlign: 'center',
     fontFamily: 'Arial',
-    marginTop: '2rem'
+    marginTop: '2rem',
+    backgroundColor: 'white',
+    zindex: '10',
   },
   timeText: {
     fontSize: '18px',
