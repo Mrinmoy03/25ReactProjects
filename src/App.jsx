@@ -19,11 +19,17 @@ import RandomQuoteGenerator2 from "./practice/RandomQuoteGenerator2";
 import ScrollProgressBar from "./practice/ScrollProgressBar";
 import TemperatureConverter from "./practice/TemperatureConverter";
 import ThemeToggler from "./practice/ThemeToggler";
+import Liveclock from "./practice/Liveclock";
+import UserProfile from "./practice/UserProfile";
+import AutoFocusInput from "./practice/AutoFocusInput";
+import ClickTRacker from "./practice/ClickTRacker";
+import PageTimer from "./practice/PageTimer";
 
 const App = () => {
   return (
     <>
       <Greeting />
+       
       <Accordian />
       <RandomColor />
       <Starrating />
@@ -55,6 +61,12 @@ const App = () => {
       <ScrollProgressBar />
       <TemperatureConverter />
       <ThemeToggler />
+      <Liveclock/>
+      <UserProfile/>
+      <AutoFocusInput/>
+      <ClickTRacker/>
+      <PageTimer/>
+     
     </>
   );
 };
