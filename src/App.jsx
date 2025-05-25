@@ -24,6 +24,11 @@ import UserProfile from "./practice/UserProfile";
 import AutoFocusInput from "./practice/AutoFocusInput";
 import ClickTRacker from "./practice/ClickTRacker";
 import PageTimer from "./practice/PageTimer";
+import FactorialCalculator from "./practice/FactorialCalculator";
+import Parent from "./practice/Parent";
+import { AuthProvider } from "./practice/AuthContext";
+import Navbar from "./practice/Navbar";
+import Profile from "./practice/Profile";
 
 const App = () => {
   return (
@@ -66,9 +71,17 @@ const App = () => {
       <AutoFocusInput/>
       <ClickTRacker/>
       <PageTimer/>
+      <FactorialCalculator/>
+      <Parent/>
+      <AuthProvider>
+        <Navbar />
+        <Profile/>
+        </AuthProvider>
      
     </>
   );
 };
 
 export default App;
+
+// core react question 6
